@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .app-name {
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar-right {
+    display: flex;
+  }
+  
+  .nav-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: #777;
+  }
+  .search
+  {
+      height: 50%;
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:#2186E0;
+     
+  }
+  .main
+  {
+      height: 100vh;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 items in a row */
+    gap: 20px; /* Gap between grid items */
+    border: 1px solid #ccc; /* Border around the entire grid */
+    padding: 10%; /* Padding to keep content away from the border */
+    background-color: #090000;
+  }
+  
+  .item {
+    border: 3px solid #090000; /* Border at the bottom of each item */
+    padding: 5%; /* Adjusted padding for items */
+    background-color: white;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .item p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
